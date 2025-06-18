@@ -170,10 +170,7 @@ func TestSearchWithOptions(t *testing.T) {
 			"answer": "Test answer",
 			"response_time": 0.5,
 			"images": [
-				{
-					"url": "https://example.com/image.jpg",
-					"description": "Test image"
-				}
+				"https://example.com/image.jpg"
 			],
 			"results": []
 		}`))

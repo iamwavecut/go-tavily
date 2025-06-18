@@ -221,12 +221,6 @@ type MapRequest struct {
 	Timeout        int             `json:"timeout,omitempty"`
 }
 
-// SearchImage represents an image found in search results.
-type SearchImage struct {
-	URL         string `json:"url"`
-	Description string `json:"description,omitempty"`
-}
-
 // SearchResult represents a single search result.
 type SearchResult struct {
 	Title         string  `json:"title"`
@@ -242,7 +236,7 @@ type SearchResponse struct {
 	Query        string         `json:"query"`
 	Answer       string         `json:"answer,omitempty"`
 	ResponseTime float64        `json:"response_time"`
-	Images       []SearchImage  `json:"images"`
+	Images       []string       `json:"images"`
 	Results      []SearchResult `json:"results"`
 }
 
