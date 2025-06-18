@@ -1,5 +1,11 @@
 # 🔍 Go Tavily Client
 
+[![Go Version](https://img.shields.io/badge/Go-1.24+-00ADD8?style=for-the-badge&logo=go)](https://golang.org/dl/)
+[![Go Report Card](https://goreportcard.com/badge/github.com/iamwavecut/go-tavily?style=for-the-badge)](https://goreportcard.com/report/github.com/iamwavecut/go-tavily)
+[![GoDoc](https://img.shields.io/badge/pkg.go.dev-reference-007d9c?style=for-the-badge&logo=go)](https://pkg.go.dev/github.com/iamwavecut/go-tavily)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)](https://opensource.org/licenses/MIT)
+[![Tests](https://img.shields.io/badge/Tests-Passing-brightgreen?style=for-the-badge&logo=github-actions)](https://github.com/iamwavecut/go-tavily/actions)
+
 A modern, flexible Go client for the [Tavily AI-powered search and web content extraction API](https://docs.tavily.com). Built for Go 1.24+ with modern idioms and best practices.
 
 ## 🚀 Features
